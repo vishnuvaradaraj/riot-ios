@@ -3,6 +3,8 @@ platform :ios, "8.0"
 
 source 'https://github.com/CocoaPods/Specs.git'
 
+# ignore all warnings from all pods
+inhibit_all_warnings!
 
 # Different flavours of pods to MatrixKit
 # The current MatrixKit pod version
